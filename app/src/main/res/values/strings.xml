@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RESTapi_UI</string>
+    <string name="helloworld">text</string>
+</resources>
