@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        textViewResult = (TextView) findViewById(R.id.textView_result);
+        textViewResult =  findViewById(R.id.textView_result);
 
         OkHttpClient client = new OkHttpClient();
         String url = "https://jsonplaceholder.typicode.com/posts/1";
